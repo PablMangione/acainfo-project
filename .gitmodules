@@ -1,0 +1,6 @@
+[submodule "back"]
+	path = back
+	url = https://github.com/frenillazo/back
+[submodule "acainfo-front"]
+	path = acainfo-front
+	url = https://github.com/frenillazo/acainfo-front
