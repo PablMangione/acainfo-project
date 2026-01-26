@@ -10,7 +10,9 @@
       "Bash(git -C back add src/main/java/com/acainfo/enrollment/infrastructure/mapper/EnrollmentRestMapper.java src/main/java/com/acainfo/group/infrastructure/mapper/GroupRestMapper.java src/main/java/com/acainfo/material/infrastructure/adapter/in/rest/mapper/MaterialRestMapper.java src/main/java/com/acainfo/payment/infrastructure/adapter/in/rest/mapper/PaymentRestMapper.java src/main/java/com/acainfo/session/infrastructure/mapper/SessionRestMapper.java)",
       "Bash(git -C back commit -m \"$(cat <<''EOF''\nfix(mappers): convert toEnrichedResponse from @Mapping to default methods\n\nReplace MapStruct @Mapping annotations with default methods for all\ntoEnrichedResponse methods to fix Java 21 compilation error:\nExceptionInInitializerError: TypeTag :: UNKNOWN\n\nAffected mappers:\n- EnrollmentRestMapper\n- GroupRestMapper\n- SessionRestMapper\n- PaymentRestMapper\n- MaterialRestMapper\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
       "Bash(find:*)",
-      "Bash(psql:*)"
+      "Bash(psql:*)",
+      "Bash(done)",
+      "Bash(npm run build:*)"
     ]
   }
 }
