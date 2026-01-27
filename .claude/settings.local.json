@@ -12,7 +12,12 @@
       "Bash(find:*)",
       "Bash(psql:*)",
       "Bash(done)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(./mvnw compile:*)",
+      "Bash(mvn compile:*)",
+      "Bash(JAVA_HOME=\"C:/Program Files/Eclipse Adoptium/jdk-21.0.7.6-hotspot\" \"C:/Dev/apache-maven-3.9.10/bin/mvn.cmd\" compile:*)",
+      "Bash(where:*)",
+      "Bash(cmd.exe:*)"
     ]
   }
 }
