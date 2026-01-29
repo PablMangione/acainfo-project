@@ -19,7 +19,10 @@
       "Bash(where:*)",
       "Bash(cmd.exe:*)",
       "Bash(copy:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(JAVA_HOME=\"C:/Program Files/Eclipse Adoptium/jdk-21.0.7.6-hotspot\" mvn compile:*)",
+      "Bash(java:*)",
+      "Bash(npx tsc:*)"
     ]
   }
 }
